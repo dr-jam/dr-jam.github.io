@@ -1296,6 +1296,10 @@ System.config({
       "jquery",
       "aurelia-framework"
     ],
+    "projects/holodeck.js": [
+      "aurelia-framework",
+      "pubs.js"
+    ],
     "publications.js": [
       "bibtex-parser-js",
       "aurelia-framework",
@@ -1315,6 +1319,9 @@ System.config({
       "aurelia-framework",
       "aurelia-fetch-client",
       "fetch"
+    ],
+    "welcome.js": [
+      "services/meta-tag-service"
     ]
   },
   bundles: {
@@ -1327,17 +1334,23 @@ System.config({
       "child-router.js",
       "cif.html!github:systemjs/plugin-text@0.0.8.js",
       "cif.js",
+      "converters/pub-keyword-filter.js",
       "main.css!github:systemjs/plugin-text@0.0.8.js",
       "main.js",
       "navbar.html!github:systemjs/plugin-text@0.0.8.js",
       "navbar.js",
       "projects.html!github:systemjs/plugin-text@0.0.8.js",
       "projects.js",
+      "projects/holodeck.html!github:systemjs/plugin-text@0.0.8.js",
+      "projects/holodeck.js",
+      "projects/voxpopuli.html!github:systemjs/plugin-text@0.0.8.js",
+      "projects/voxpopuli.js",
       "publications.html!github:systemjs/plugin-text@0.0.8.js",
       "publications.js",
       "pubs.js",
       "research.html!github:systemjs/plugin-text@0.0.8.js",
       "research.js",
+      "services/meta-tag-service.js",
       "singlepub.html!github:systemjs/plugin-text@0.0.8.js",
       "singlepub.js",
       "socialsimulation.html!github:systemjs/plugin-text@0.0.8.js",
