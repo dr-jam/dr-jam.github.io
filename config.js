@@ -1288,42 +1288,6 @@ System.config({
       "zlib": "github:jspm/nodelibs-zlib@0.1.0"
     }
   },
-  depCache: {
-    "blur-image.js": [
-      "aurelia-framework"
-    ],
-    "navbar.js": [
-      "jquery",
-      "aurelia-framework"
-    ],
-    "projects/holodeck.js": [
-      "aurelia-framework",
-      "pubs.js"
-    ],
-    "publications.js": [
-      "bibtex-parser-js",
-      "aurelia-framework",
-      "./pubs.js"
-    ],
-    "pubs.js": [
-      "bibtex-parser-js"
-    ],
-    "research.js": [
-      "aurelia-framework",
-      "./pubs.js"
-    ],
-    "singlepub.js": [
-      "aurelia-framework"
-    ],
-    "users.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "fetch"
-    ],
-    "welcome.js": [
-      "services/meta-tag-service"
-    ]
-  },
   bundles: {
     "app-build.js": [
       "BatmanNav.css!github:systemjs/plugin-text@0.0.8.js",
@@ -1466,6 +1430,42 @@ System.config({
       "npm:jquery@3.1.1/dist/jquery.js",
       "npm:process@0.11.9.js",
       "npm:process@0.11.9/browser.js"
+    ]
+  },
+  depCache: {
+    "blur-image.js": [
+      "aurelia-framework"
+    ],
+    "navbar.js": [
+      "jquery",
+      "aurelia-framework"
+    ],
+    "projects/holodeck.js": [
+      "aurelia-framework",
+      "pubs.js"
+    ],
+    "publications.js": [
+      "bibtex-parser-js",
+      "aurelia-framework",
+      "./pubs.js"
+    ],
+    "pubs.js": [
+      "bibtex-parser-js"
+    ],
+    "research.js": [
+      "aurelia-framework",
+      "./pubs.js"
+    ],
+    "singlepub.js": [
+      "aurelia-framework"
+    ],
+    "users.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "fetch"
+    ],
+    "welcome.js": [
+      "services/meta-tag-service"
     ]
   }
 });
