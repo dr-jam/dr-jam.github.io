@@ -1,25 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Aurelia</title>
-    <link rel="shortcut icon" href="favicon.ico?v=1" type="image/x-icon">
-    <link rel="stylesheet" href="styles/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
+<html lang="en">
+<head>
 
-  <body aurelia-app="main">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Your page title here :)</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <!-- The bluebird version is locked at 4.6.3 in the package.json file to keep this from breaking -->
-    <!-- We include bluebird to bypass Edge's very slow Native Promise implementation. The Edge team -->
-    <!-- has fixed the issues with their implementation with these fixes being distributed with the  -->
-    <!-- Windows 10 Anniversary Update on 2 August 2016. Once that update has pushed out, you may    -->
-    <!-- consider removing bluebird from your project and simply using native promises if you do     -->
-    <!-- not need to support Internet Explorer.                                                      -->
-    <script src="jspm_packages/npm/bluebird@3.4.1/js/browser/bluebird.min.js"></script>
-    <script src="jspm_packages/system.js"></script>
-    <script src="config.js"></script>
-    <script>
-      System.import('aurelia-bootstrapper');
-    </script>
-  </body>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h4>Basic Page</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+    </div>
+  </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
 </html>
